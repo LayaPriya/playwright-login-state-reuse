@@ -38,4 +38,45 @@ global-auth-test-setup/
 
 ## How to Run
 
+### Prerequisites
+
+- Node.js (v18 or later recommended)
+- npm (comes with Node.js)
+- Git
+
+### Setup
+
+Clone the repository:
+git clone https://github.com/LayaPriya/playwright-login-state-reuse.git
+
+Navigate to the project directory:
 Install dependencies:
+npm install
+
+### Execute Tests
+
+Run all tests:
+npx playwright test
+
+Run tests in headed mode:
+npx playwright test --headed
+
+After execution, open the HTML report:
+npx playwright show-report
+
+
+## Benefits
+
+- Faster test execution
+- Improved stability
+- Scalable for large test suites
+- Clean separation of concerns
+
+## Future Enhancements
+
+- Support multiple user roles
+- Environment-based credential handling
+- API-based authentication
+
+
+
